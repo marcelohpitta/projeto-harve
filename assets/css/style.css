@@ -1,0 +1,104 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo {
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+.menu {
+    background-color: #0a0c39;
+    color:aliceblue;
+    display: flex;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #dfe1fc;  
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a:hover {
+    background-color: #554596;
+}
+
+.cabecalho {
+    margin-left: 200px;
+    background-color: #f6f6f6;
+    height: 60px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.h1 {
+    display: block;
+}
+
+.conteudo {
+    margin-left: 200px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.coluna {
+    width: 50%;
+    padding: 30px;
+    margin: 30px;
+    background-color: #f6f6f6;
+    border-radius: 3px;
+}
+
+.conteudo-visivel {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.campo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 23px;
+    color: #515159;
+    border: 1px solid #cdcdcd;
+}
+
+
+
+
+
